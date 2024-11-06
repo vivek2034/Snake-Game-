@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obstacles Mode - Snake Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="startGame('obstacles')">
+    <div class="game-container">
+        <canvas id="obstaclesCanvas" width="400" height="400"></canvas>
+        <h2>Score: <span id="obstacleScore">0</span></h2>
+        <button onclick="startGame('obstacles')">Restart Game</button>
+        <button onclick="window.location.href='index.html'">Back to Home</button>
+    </div>
+    <script src="snakeGame.js"></script>
+</body>
+</html>
